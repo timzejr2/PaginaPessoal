@@ -1,0 +1,43 @@
+.container-sm {
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pageAlign {
+    display: inline-block;
+    max-width: 800px;
+    text-align: justify;
+}
+
+p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.itemContainer {
+    max-width: 800px;
+    text-align: center;
+    display: inline-block;
+}
+
+.coluna {
+    display: inline-block;
+    text-align: justify;
+    margin: 25px;
+    width: 300px;
+    vertical-align: top;
+}
+
+p {
+    font-size: large;
+}
+
+li {
+    font-size: large;
+}
+
+h3 {
+    font-weight: bold;
+}

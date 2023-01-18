@@ -1,0 +1,19 @@
+.page {
+    background-color: lightgray;
+    text-align: center;
+}
+
+.description {
+    padding: 25px;
+}
+
+.fotoPerfil {
+    width: 200px;
+    border: 5px gray solid;
+    border-radius: 120px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: large;
+}

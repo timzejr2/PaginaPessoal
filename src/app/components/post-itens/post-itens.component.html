@@ -1,0 +1,7 @@
+<div *ngFor="let postItem of postItens">
+    <app-subtitle *ngIf="postItem.postType == 0" [postItem]="postItem"></app-subtitle>
+    <app-paragraph [postItem]="postItem" *ngIf="postItem.postType == 1"></app-paragraph>
+    <app-link *ngIf="postItem.postType == 2" [postItem]="postItem"></app-link>
+    <app-picture *ngIf="postItem.postType == 3" [postItem]="postItem"></app-picture>
+    <app-video *ngIf="postItem.postType == 4" [postItem]="postItem"></app-video>
+</div>

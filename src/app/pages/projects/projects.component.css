@@ -1,0 +1,12 @@
+.container-sm {
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pageAlign {
+    display: inline-block;
+    text-align: center;
+    min-height: 320px;
+}

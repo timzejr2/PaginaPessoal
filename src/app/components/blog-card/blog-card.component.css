@@ -1,0 +1,7 @@
+.card {
+    display: inline-block;
+    max-width: 600px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: rgb(23, 9, 9);
+}
