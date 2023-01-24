@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/06addfd4-9ebe-4184-b4a8-37a336f7a41f/AppServices/subscriptions/06addfd4-9ebe-4184-b4a8-37a336f7a41f/resourceGroups/PersonalPage/providers/Microsoft.Web/sites/valentimaffonso",
+    "appService.deploySubpath": "dist"
+}

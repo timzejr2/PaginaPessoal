@@ -16,7 +16,7 @@ const httpOptions = {
 })
 
 export class PostService {
-  private url = 'https://localhost:7005/';
+  private url = 'https://valentimpostsapi.azurewebsites.net/';
 
   constructor(private http: HttpClient) { }
 
