@@ -1,0 +1,30 @@
+.page {
+    background-color: #303030;
+    text-align: center;
+}
+
+.description {
+    padding: 25px;
+    max-width: 600px;
+    display: inline-block;
+    text-align: center;
+}
+
+.fotoPerfil {
+    width: 300px;
+    display: inline-flex;
+    
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    font-size: large;
+    color: #ffffff;
+}
+
+img {
+    width: 250px;
+}

@@ -1,18 +1,50 @@
-<ngb-carousel *ngIf="images">
-    <ng-template ngbSlide class="rounded mx-auto d-block">
-        <div class="picsum-img-wrapper">
+<ngb-carousel>
+    <ng-template ngbSlide class="rounded mx-auto d-block carouselItem">
+        <div class="picsum-img-wrapper carouselItem">
+            <div class="fala">
+                Seja bem vindo!
+            </div>
+        </div>
+        <div class="carousel-caption">
+        </div>
+    </ng-template>
+    <ng-template ngbSlide class="rounded mx-auto d-block carouselItem">
+        <div class="picsum-img-wrapper carouselItem">
+            <div class="fala">
+                Eu sou Valentim!
+            </div>
+        </div>
+        <div class="carousel-caption">
+        </div>
+    </ng-template>
+    <ng-template ngbSlide class="rounded mx-auto d-block carouselItem">
+        <div class="picsum-img-wrapper carouselItem">
+            <div class="fala">
+                Desenvolvedor Dotnet e Angular.
+            </div>
+        </div>
+        <div class="carousel-caption">
+        </div>
+    </ng-template>
+
+    <ng-template ngbSlide class="rounded mx-auto d-block carouselItem">
+        <div class="picsum-img-wrapper carouselItem">
             <a routerLink=blog>
-                <img [src]="images[0]" alt="Random first slide" class="rounded mx-auto d-block img-thumbnail" />
+                <div class="fala">
+                    Clique aqui e veja posts sobre tecnologia no meu blog!
+                </div>
             </a>
         </div>
         <div class="carousel-caption">
             
         </div>
     </ng-template>
-    <ng-template ngbSlide class="rounded mx-auto d-block">
-        <div class="picsum-img-wrapper">
+    <ng-template ngbSlide class="rounded mx-auto d-block carouselItem">
+        <div class="picsum-img-wrapper carouselItem">
             <a routerLink=projects>
-                <img [src]="images[1]" alt="Random second slide" class="rounded mx-auto d-block img-thumbnail" />
+                <div class="fala">
+                    Clique aqui e veja alguns de meus projetos!
+                </div>
             </a>
         </div>
         <div class="carousel-caption">

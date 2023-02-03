@@ -1,10 +1,12 @@
-<a class="card" [routerLink]="['post', Id]">
-    <div class="card-body">
-      <h2 class="card-title">{{blogPosts.postTitle}}</h2>
-    </div>
-    <img src="https://postsimages.blob.core.windows.net/images/{{blogPosts.postImage}}" class="card-img" alt="Card do post: {{blogPosts.postTitle}}">
-    <div class="card-body">
-        <p class="card-text">{{blogPosts.postDescription}}</p>
-        <p class="card-text"><small class="text-muted">{{blogPosts.postDate | date: 'dd/MM/yyyy' }}</small></p>
+<div>
+  <a class="card" [routerLink]="['post', Id]">
+      <div class="card-body">
+        <h2 class="card-title">{{blogPosts.postTitle}}</h2>
       </div>
-  </a>
+      <img src="https://postsimages.blob.core.windows.net/images/{{blogPosts.postImage}}" class="card-img" alt="Card do post: {{blogPosts.postTitle}}">
+      <div class="card-body">
+          <p class="card-text">{{blogPosts.postDescription}}</p>
+          <p class="card-text"><small class="text-muted">{{blogPosts.postDate | date: 'dd/MM/yyyy' }}</small></p>
+        </div>
+    </a>
+</div>

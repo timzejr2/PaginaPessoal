@@ -1,0 +1,36 @@
+.projects {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.project{
+    width: 250px;
+    vertical-align: top;
+    
+    margin: 10px;
+    display: inline-block;
+}
+
+.projectLinks{
+    text-align: left;
+    margin-left: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #303030;
+}
+
+p{
+    margin: 10px;
+    text-align: justify;
+    color: #303030;
+}
+
+a {
+    margin: 10px;
+}
+
+img {
+    width: 250px;
+}

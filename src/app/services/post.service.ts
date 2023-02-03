@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from  '@angular/common/http';
-import { Observable, observable } from 'rxjs';
+import { Observable } from 'rxjs';
 import { Post } from '../models/post';
 import { PostItem } from '../models/post-item';
 
@@ -16,23 +16,23 @@ const httpOptions = {
 })
 
 export class PostService {
-  private url = 'https://valentimpostsapi.azurewebsites.net/';
+  private url = ''
 
   constructor(private http: HttpClient) { }
 
   getAllPosts():Observable<Post[]> {
-    return this.http.get<Post[]>(this.url + "Post/get_posts")
+    return this.http.get<Post[]>(this.url + "gateway/get_posts")
   }
 
   getAllProjects():Observable<Post[]> {
-    return this.http.get<Post[]>(this.url + "Post/get_projects")
+    return this.http.get<Post[]>(this.url + "gateway/get_projects")
   }
 
   getPost(id: string):Observable<Post> {
-    return this.http.get<Post>(this.url + "Post/get_post/" + id)
+    return this.http.get<Post>(this.url + "gateway/get_post/" + id)
   }
 
   getPostItens(id: string):Observable<PostItem[]> {
-    return this.http.get<PostItem[]>(this.url + "Post/get_post_itens/" + id)
+    return this.http.get<PostItem[]>(this.url + "gateway/get_post_itens/" + id)
   }
 }

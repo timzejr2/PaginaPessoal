@@ -24,6 +24,11 @@ import { PostService } from './services/post.service';
 import { CommonModule } from '@angular/common';
 import { SubtitleComponent } from './components/subtitle/subtitle.component';
 import { PostItensComponent } from './components/post-itens/post-itens.component';
+import { PresentationComponent } from './components/presentation/presentation.component';
+import { HomeProjectsComponent } from './components/home-projects/home-projects.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { WebglComponent } from './components/webgl/webgl.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +48,12 @@ import { PostItensComponent } from './components/post-itens/post-itens.component
     VideoComponent,
     LinkComponent,
     SubtitleComponent,
-    PostItensComponent
+    PostItensComponent,
+    PresentationComponent,
+    HomeProjectsComponent,
+    SkillsComponent,
+    BannerComponent,
+    WebglComponent
   ],
   imports: [
     HttpClientModule,

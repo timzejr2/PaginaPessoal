@@ -3,5 +3,6 @@ export enum ItemType {
     paragraph = 1,
     link = 2,
     image = 3,
-    video = 4
+    video = 4,
+    webgl = 5
 }

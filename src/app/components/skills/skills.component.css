@@ -1,0 +1,23 @@
+.skillsBox {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.skillItem{
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+}
+
+h2{
+    color: #303030;
+}
+
+p{
+    color: #303030;
+}
+
+img{
+    max-height: 80px;
+}
+
