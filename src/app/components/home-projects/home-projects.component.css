@@ -4,11 +4,19 @@
 }
 
 .project{
+    color: #303030;
     width: 250px;
     vertical-align: top;
     
     margin: 10px;
     display: inline-block;
+
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+}
+
+.project:hover{
+    color: #ffffff;
+    box-shadow: inset 0 500px 0 0 #303030;
 }
 
 .projectLinks{
@@ -18,13 +26,13 @@
 
 h2 {
     text-align: center;
-    color: #303030;
+
 }
 
 p{
     margin: 10px;
     text-align: justify;
-    color: #303030;
+
 }
 
 a {

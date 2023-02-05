@@ -1,5 +1,21 @@
 .card {
     display:inline-block;
     margin: 5px;
-    color: rgb(23, 9, 9);
+    color: #303030;
+
+    --d:14px;
+   
+    padding: 8px 8px calc(8px + var(--d)) 8px;
+    background: #ffffff bottom/100% var(--d) no-repeat;
+    clip-path: polygon(0 0,100% 0,100% calc(100% - var(--d)),calc(100% - 3px) calc(100% - var(--d)),3px calc(100% - var(--d)) ,0 calc(100% - var(--d))); 
+    transform: perspective(1000px) rotateX(0deg);
+    transition: 0.4s,color 0.4s 0.4s,background-color 0.4s 0.4s;
+}
+
+.card:hover{
+    background-color: #ffffff;
+    color: #303030;
+    clip-path: polygon(0 0,100% 0,100% calc(100% - var(--d)),calc(100% - 3px) 100%,3px 100% ,0 calc(100% - var(--d)));
+    transform: perspective(1000px) rotateX(15deg);
+    transition: 0.4s,clip-path 0.4s 0.4s,transform 0.4s 0.4s;
 }

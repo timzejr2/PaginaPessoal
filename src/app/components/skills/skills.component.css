@@ -1,5 +1,4 @@
 .skillsBox {
-    background-color: #ffffff;
     text-align: center;
 }
 
@@ -7,10 +6,73 @@
     width: 300px;
     display: inline-block;
     margin: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+
+    /* adjust the below to control the 3D effect */
+  --x: 10px;
+  --y: 20px;
+  transform: perspective(1000px) rotateX(var(--_a,40deg));
+  /* */
+  clip-path: polygon(       
+     var(--y)              var(--y),       
+     calc(100% - var(--y)) var(--y),       
+     calc(100% - var(--y)) calc(100% - var(--y)),       
+     calc(100% - var(--y) - var(--x)) var(--_c,100%),       
+     calc(var(--x) + var(--y))        var(--_c,100%),      
+     var(--y)        calc(100% - var(--y))       
+     );
+  outline: var(--y) solid #303030;
+  outline-offset: calc(-1*var(--y));
+  padding: var(--y) var(--y) 0 var(--y);
+  transition: 1s;
+}
+
+.skillItem:hover{
+    --_a: 0deg;
+  --_c: calc(100% - var(--y));
 }
 
 h2{
     color: #303030;
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+}
+
+.boxTitle{
+    display: block;
+    text-align: center;
+}
+
+.skillsTitle{
+    display: inline-block;
+    text-align: center;
+    width: 290px;
+    background-color: #ffffff;
+
+      /* adjust the below to control the 3D effect */
+  --x: 10px;
+  --y: 20px;
+  transform: perspective(1000px) rotateX(var(--_a,40deg));
+  /* */
+  clip-path: polygon(       
+     var(--y)              var(--y),       
+     calc(100% - var(--y)) var(--y),       
+     calc(100% - var(--y)) calc(100% - var(--y)),       
+     calc(100% - var(--y) - var(--x)) var(--_c,100%),       
+     calc(var(--x) + var(--y))        var(--_c,100%),      
+     var(--y)        calc(100% - var(--y))       
+     );
+  outline: var(--y) solid #303030;
+  outline-offset: calc(-1*var(--y));
+  padding: var(--y) var(--y) 0 var(--y);
+  transition: 1s;
+}
+
+.skillsTitle:hover{
+    --_a: 0deg;
+    --_c: calc(100% - var(--y));
 }
 
 p{
@@ -19,5 +81,6 @@ p{
 
 img{
     max-height: 80px;
+    max-width: 180px;
 }
 

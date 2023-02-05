@@ -16,7 +16,7 @@ const httpOptions = {
 })
 
 export class PostService {
-  private url = ''
+  private url = 'https://apigatewayvalentim.azurewebsites.net/'
 
   constructor(private http: HttpClient) { }
 
