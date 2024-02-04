@@ -8,7 +8,7 @@ import { PostService } from 'src/app/services/post.service';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-  projects!: Post[];
+  posts!: Post[];
   postService: PostService;
 
   constructor (postService: PostService){
@@ -17,7 +17,7 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit(): void {
     this.postService.getAllProjects().subscribe(((data) => {
-      this.projects = data
+      this.posts = data
     }))
   }
 }

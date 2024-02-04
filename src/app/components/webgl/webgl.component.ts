@@ -21,7 +21,7 @@ export class WebglComponent {
   }
 
   ngOnInit(){
-    this.modelAdress = "https://proud-tree-0cf801e10.1.azurestaticapps.net?id=" + this.postItem.adress
+    this.modelAdress = "https://victorious-pebble-00f7c6c10.4.azurestaticapps.net?id=" + this.postItem.adress
 
     this.dangerousUrl = this.sanitizer.bypassSecurityTrustUrl(this.modelAdress)
     this.trustedUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.modelAdress!)

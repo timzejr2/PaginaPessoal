@@ -8,5 +8,5 @@ export class Post {
     isAProject?: boolean;
     postActive?: boolean;
     postDate?: Date;
-    PostItens?: PostItem;
+    PostItens?: PostItem[];
 }

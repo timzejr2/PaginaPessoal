@@ -26,7 +26,11 @@ export class PostComponent implements OnInit {
       )
 
       this.postService.getPost(this.id!).subscribe(((data) => {
-        this.post = data
+        if (data !== null) {
+          this.post = data;
+        } else {
+
+        }
       }))
   }
 

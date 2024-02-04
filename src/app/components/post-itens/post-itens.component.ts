@@ -28,12 +28,14 @@ export class PostItensComponent implements OnInit {
     this.postService = postService;
   }
 
-  ngOnInit(): void
-  {
-    this.postService.getPostItens(this.postId!).subscribe(((data) => {
-      this.postItens = data
-      console.log(this.postItens)
-
-    }))
+  ngOnInit(): void {
+    this.postService.getPostItens(this.postId!).subscribe((data: PostItem[] | null) => {
+      if (data !== null) {
+        this.postItens = data;
+        console.log(this.postItens);
+      } else {
+        
+      }
+    });
   }
 }

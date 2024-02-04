@@ -1,0 +1,264 @@
+[
+    {
+      "id": "0",
+      "postTitle": "Primeiro post",
+      "postImage": "6c31ea4b-9eb7-4787-aba7-21d3ce55b017-CapaBoasVindas.jpg",
+      "postDescription": "Olá pessoal! Criei este blog para postar minhas percepções sobre o que venho estudando sobre tecnologia e o mundo da tecnologia e desenvolvimento...",
+      "isAProject": true,
+      "postActive": true,
+      "postDate": "2023-01-17T19:07:56.089Z",
+      "PostItens": [
+        {
+          "id": "0",
+          "postId": "0",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Olá pessoal!",
+          "adress": ""
+        },
+        {
+          "id": "1",
+          "postId": "0",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Criei esta página pessoal para mostrar os projetos que venho desenvolvendo, e este blog para ideias gerais sobre tecnologias, métodos e curiosidades.",
+          "adress": ""
+        },
+        {
+          "id": "2",
+          "postId": "0",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Existem alternativas até mesmo gratuitas para se fazer um blog na internet, mas decidi montar este com backend feito com Dotnet e o frontend em Angular para praticar o que venho aprendendo.",
+          "adress": ""
+        },
+        {
+          "id": "3",
+          "postId": "0",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Ao longo do tempo pretendo fazer melhorias neste blog, como criar as páginas para fazer os posts com autenticação com JWT, e adicionar um ApiGateway com Ocelot, entre outras ideias que venha a ter ou alguma sugestão que pareça legal.",
+          "adress": ""
+        },
+        {
+          "id": "4",
+          "postId": "0",
+          "postType": 3,
+          "subtitle": "Imagem com diversos logotipos de tecnologias que venho estudando.",
+          "description": "Logotipos de tecnologias que venho estudando",
+          "adress": "4f11780a-9e24-437f-9be0-4b5fe9c8027f-Tecnologias.jpg"
+        },
+        {
+          "id": "5",
+          "postId": "0",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Caso ainda não tenha, me adicione no linkedin para fortalecermos nosso networking.",
+          "adress": ""
+        },
+        {
+          "id": "6",
+          "postId": "0",
+          "postType": 2,
+          "subtitle": "",
+          "description": "Linkedin",
+          "adress": "www.linkedin.com/in/valentim-affonso-06b26420b"
+        },
+        {
+          "id": "7",
+          "postId": "0",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Obrigado pela sua visita!",
+          "adress": ""
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "postTitle": "API Gateway",
+      "postImage": "Neste post, vamos abordar APIs Gateway e suas funções para a arquitetura de microsserviços…",
+      "postDescription": "16503226-b77f-40eb-a5ff-3c0aaffe0597-capa_apigateway.jpg",
+      "isAProject": true,
+      "postActive": true,
+      "postDate": "2023-01-27T18:40:13.010Z",
+      "PostItens": [
+        {
+          "id": "8",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Existem várias APIs Gateway disponíveis, cada uma com suas vantagens e aplicações, mas para uma introdução geral, vamos começar com uma definição sobre a API Gateway Ocelot:",
+          "adress": ""
+        },
+        {
+          "id": "9",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "O Ocelot é uma API Gateway voltada para plataforma .Net para quem trabalha com arquitetura de microsserviços.",
+          "adress": ""
+        },
+        {
+          "id": "10",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Temos 3 termos chave nesta frase: API, Microsserviços e API Gateway.",
+          "adress": ""
+        },
+        {
+          "id": "11",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Então, antes de falar sobre API Gateway, o que é uma API? (Application Programing Interface)",
+          "adress": ""
+        },
+        {
+          "id": "12",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "API é um conjunto de normas que possibilita a comunicação entre plataformas por meio de uma série de padrões e protocolos. Permitindo a integração de sistemas de diferentes linguagens.",
+          "adress": ""
+        },
+        {
+          "id": "13",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Uma API possui um endereço que ao ser acessado entrega uma resposta ou faz algum tratamento com alguma informação que está recebendo, como cadastrar esta informação em um banco de dados.",
+          "adress": ""
+        },
+        {
+          "id": "14",
+          "postId": "1",
+          "postType": 3,
+          "subtitle": "API sendo requisitada e entregando um JSON para ser consumido pelo frontend",
+          "description": "API sendo requisitada e entregando um JSON para ser consumido pelo frontend",
+          "adress": "d23b9c62-32d8-45c8-9f46-f9d54b847ede-RequisicaoAPI.jpg"
+        },
+        {
+          "id": "15",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Quando temos um frontend que consome várias APIs cada uma com uma função(CRUD de produto, Identity server, pedido de compra, ...), ou mesmo APIs se comunicando entre si, temos uma arquitetura de Microsserviços.",
+          "adress": ""
+        },
+        {
+          "id": "16",
+          "postId": "1",
+          "postType": 3,
+          "subtitle": "Frontend conectado a várias APIs aguardando requisições.",
+          "description": "Frontend conectado a várias APIs aguardando requisições.",
+          "adress": "85b4a5c6-31dd-4af6-8385-8ef4a9fbe6dc-API.png"
+        },
+        {
+          "id": "17",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Neste contexto de microsserviços, podemos centralizar todos os endereços em um só lugar, com opção de configurações de segurança como evitar múltiplas requisições que possar travar o sistema, fazer a gestão do tráfico, monitorar o uso das APIs, cobrar pelo uso, entre outras opções e regras para acesso, podemos usar uma API Gateway.",
+          "adress": ""
+        },
+        {
+          "id": "18",
+          "postId": "1",
+          "postType": 3,
+          "subtitle": "API Gateway implantada no sistema",
+          "description": "API Gateway implantada no sistema",
+          "adress": "3872d8fb-1970-4c00-bdf4-96c85e6b785f-api-gateway.png"
+        },
+        {
+          "id": "19",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Também é possível usar várias APIs Gateway no sistema, como na imagem abaixo onde uma é acessada pelo frontend mobile e outra para o frontend web.",
+          "adress": ""
+        },
+        {
+          "id": "20",
+          "postId": "1",
+          "postType": 3,
+          "subtitle": "Sistema com mais de uma API Gateway",
+          "description": "Sistema com mais de uma API Gateway",
+          "adress": "27ce4da5-8545-41f0-b0c0-308fd80e947d-multiple-api-gateways.png"
+        },
+        {
+          "id": "21",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "No caso do Ocelot citado acima, ele possui os seguintes recursos que podem ser configurados:",
+          "adress": ""
+        },
+        {
+          "id": "22",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": " • Roteamento",
+          "adress": ""
+        },
+        {
+          "id": "23",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": " • WebSockets",
+          "adress": ""
+        },
+        {
+          "id": "24",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": " • Autenticação",
+          "adress": ""
+        },
+        {
+          "id": "25",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": " • Autorização",
+          "adress": ""
+        },
+        {
+          "id": "26",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": " • Limite de taxa",
+          "adress": ""
+        },
+        {
+          "id": "27",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": " • Cache",
+          "adress": ""
+        },
+        {
+          "id": "28",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": " • Repetir políticas/QoS",
+          "adress": ""
+        },
+        {
+          "id": "29",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": " • Balanceamento de carga",
+          "adress": ""
+        }
+      ]
+    }
+  ]

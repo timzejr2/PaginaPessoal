@@ -1,0 +1,1210 @@
+[
+    {
+      "id": "0",
+      "postTitle": "Primeiro post",
+      "postImage": "6c31ea4b-9eb7-4787-aba7-21d3ce55b017-CapaBoasVindas.jpg",
+      "postDescription": "Olá pessoal! Criei este blog para postar minhas percepções sobre o que venho estudando sobre tecnologia e o mundo da tecnologia e desenvolvimento...",
+      "isAProject": false,
+      "postActive": true,
+      "postDate": "2023-01-17T19:07:56.089Z",
+      "PostItens": [
+        {
+          "id": "0",
+          "postId": "0",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Olá pessoal!",
+          "adress": ""
+        },
+        {
+          "id": "1",
+          "postId": "0",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Criei esta página pessoal para mostrar os projetos que venho desenvolvendo, e este blog para ideias gerais sobre tecnologias, métodos e curiosidades.",
+          "adress": ""
+        },
+        {
+          "id": "2",
+          "postId": "0",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Existem alternativas até mesmo gratuitas para se fazer um blog na internet, mas decidi montar este com backend feito com Dotnet e o frontend em Angular para praticar o que venho aprendendo.",
+          "adress": ""
+        },
+        {
+          "id": "3",
+          "postId": "0",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Ao longo do tempo pretendo fazer melhorias neste blog, como criar as páginas para fazer os posts com autenticação com JWT, e adicionar um ApiGateway com Ocelot, entre outras ideias que venha a ter ou alguma sugestão que pareça legal.",
+          "adress": ""
+        },
+        {
+          "id": "4",
+          "postId": "0",
+          "postType": 3,
+          "subtitle": "Imagem com diversos logotipos de tecnologias que venho estudando.",
+          "description": "Logotipos de tecnologias que venho estudando",
+          "adress": "4f11780a-9e24-437f-9be0-4b5fe9c8027f-Tecnologias.jpg"
+        },
+        {
+          "id": "5",
+          "postId": "0",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Caso ainda não tenha, me adicione no linkedin para fortalecermos nosso networking.",
+          "adress": ""
+        },
+        {
+          "id": "6",
+          "postId": "0",
+          "postType": 2,
+          "subtitle": "",
+          "description": "Linkedin",
+          "adress": "www.linkedin.com/in/valentim-affonso-06b26420b"
+        },
+        {
+          "id": "7",
+          "postId": "0",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Obrigado pela sua visita!",
+          "adress": ""
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "postTitle": "API Gateway",
+      "postImage": "16503226-b77f-40eb-a5ff-3c0aaffe0597-capa_apigateway.jpg",
+      "postDescription": "Neste post, vamos abordar APIs Gateway e suas funções para a arquitetura de microsserviços…",
+      "isAProject": false,
+      "postActive": true,
+      "postDate": "2023-01-27T18:40:13.010Z",
+      "PostItens": [
+        {
+          "id": "8",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Existem várias APIs Gateway disponíveis, cada uma com suas vantagens e aplicações, mas para uma introdução geral, vamos começar com uma definição sobre a API Gateway Ocelot:",
+          "adress": ""
+        },
+        {
+          "id": "9",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "O Ocelot é uma API Gateway voltada para plataforma .Net para quem trabalha com arquitetura de microsserviços.",
+          "adress": ""
+        },
+        {
+          "id": "10",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Temos 3 termos chave nesta frase: API, Microsserviços e API Gateway.",
+          "adress": ""
+        },
+        {
+          "id": "11",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Então, antes de falar sobre API Gateway, o que é uma API? (Application Programing Interface)",
+          "adress": ""
+        },
+        {
+          "id": "12",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "API é um conjunto de normas que possibilita a comunicação entre plataformas por meio de uma série de padrões e protocolos. Permitindo a integração de sistemas de diferentes linguagens.",
+          "adress": ""
+        },
+        {
+          "id": "13",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Uma API possui um endereço que ao ser acessado entrega uma resposta ou faz algum tratamento com alguma informação que está recebendo, como cadastrar esta informação em um banco de dados.",
+          "adress": ""
+        },
+        {
+          "id": "14",
+          "postId": "1",
+          "postType": 3,
+          "subtitle": "API sendo requisitada e entregando um JSON para ser consumido pelo frontend",
+          "description": "API sendo requisitada e entregando um JSON para ser consumido pelo frontend",
+          "adress": "d23b9c62-32d8-45c8-9f46-f9d54b847ede-RequisicaoAPI.jpg"
+        },
+        {
+          "id": "15",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Quando temos um frontend que consome várias APIs cada uma com uma função(CRUD de produto, Identity server, pedido de compra, ...), ou mesmo APIs se comunicando entre si, temos uma arquitetura de Microsserviços.",
+          "adress": ""
+        },
+        {
+          "id": "16",
+          "postId": "1",
+          "postType": 3,
+          "subtitle": "Frontend conectado a várias APIs aguardando requisições.",
+          "description": "Frontend conectado a várias APIs aguardando requisições.",
+          "adress": "85b4a5c6-31dd-4af6-8385-8ef4a9fbe6dc-API.png"
+        },
+        {
+          "id": "17",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Neste contexto de microsserviços, podemos centralizar todos os endereços em um só lugar, com opção de configurações de segurança como evitar múltiplas requisições que possar travar o sistema, fazer a gestão do tráfico, monitorar o uso das APIs, cobrar pelo uso, entre outras opções e regras para acesso, podemos usar uma API Gateway.",
+          "adress": ""
+        },
+        {
+          "id": "18",
+          "postId": "1",
+          "postType": 3,
+          "subtitle": "API Gateway implantada no sistema",
+          "description": "API Gateway implantada no sistema",
+          "adress": "3872d8fb-1970-4c00-bdf4-96c85e6b785f-api-gateway.png"
+        },
+        {
+          "id": "19",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "Também é possível usar várias APIs Gateway no sistema, como na imagem abaixo onde uma é acessada pelo frontend mobile e outra para o frontend web.",
+          "adress": ""
+        },
+        {
+          "id": "20",
+          "postId": "1",
+          "postType": 3,
+          "subtitle": "Sistema com mais de uma API Gateway",
+          "description": "Sistema com mais de uma API Gateway",
+          "adress": "27ce4da5-8545-41f0-b0c0-308fd80e947d-multiple-api-gateways.png"
+        },
+        {
+          "id": "21",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": "No caso do Ocelot citado acima, ele possui os seguintes recursos que podem ser configurados:",
+          "adress": ""
+        },
+        {
+          "id": "22",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": " • Roteamento",
+          "adress": ""
+        },
+        {
+          "id": "23",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": " • WebSockets",
+          "adress": ""
+        },
+        {
+          "id": "24",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": " • Autenticação",
+          "adress": ""
+        },
+        {
+          "id": "25",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": " • Autorização",
+          "adress": ""
+        },
+        {
+          "id": "26",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": " • Limite de taxa",
+          "adress": ""
+        },
+        {
+          "id": "27",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": " • Cache",
+          "adress": ""
+        },
+        {
+          "id": "28",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": " • Repetir políticas/QoS",
+          "adress": ""
+        },
+        {
+          "id": "29",
+          "postId": "1",
+          "postType": 1,
+          "subtitle": "",
+          "description": " • Balanceamento de carga",
+          "adress": ""
+        }
+      ]
+    },
+    {
+        "id": "2",
+        "postTitle": "Página pessoal",
+        "postImage": "2b9185f4-a4a3-4751-8897-da607065799e-Pagina.jpg",
+        "postDescription": "",
+        "isAProject": true,
+        "postActive": true,
+        "postDate": "2023-01-18T14:50:46.618Z",
+        "PostItens": [
+          {
+            "id": "30",
+            "postId": "2",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Este projeto é exatamente esta página que você está neste momento.",
+            "adress": ""
+          },
+          {
+            "id": "31",
+            "postId": "2",
+            "postType": 1,
+            "subtitle": "",
+            "description": "O backend consiste em 2 APIs feitas com Dotnet, uma para cadastrar e entregar os posts e outra para cadastrar as imagens.",
+            "adress": ""
+          },
+          {
+            "id": "32",
+            "postId": "2",
+            "postType": 3,
+            "subtitle": "Logo Dotnet",
+            "description": "Logo Dotnet",
+            "adress": "1670e367-0ca7-49e7-adc4-1305001b3f38-Microsoft_.NET_logo.png"
+          },
+          {
+            "id": "33",
+            "postId": "2",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Os posts são armazenados em um banco de dados SQL-server no Azure e as imagens em um container storage também no Azure.",
+            "adress": ""
+          },
+          {
+            "id": "34",
+            "postId": "2",
+            "postType": 3,
+            "subtitle": "Logo Azure",
+            "description": "Logo Azure",
+            "adress": "f2529ce7-0d5f-4531-9342-85505fbfa4fe-LogoAzure.png"
+          },
+          {
+            "id": "35",
+            "postId": "2",
+            "postType": 3,
+            "subtitle": "Logo SQL-server",
+            "description": "Logo SQL-server",
+            "adress": "49c523cc-343c-426d-9578-c99c175837fc-SQL-Server-Logo.png"
+          },
+          {
+            "id": "36",
+            "postId": "2",
+            "postType": 1,
+            "subtitle": "",
+            "description": "A API de cadastro foi feita com o padrão de projeto VO com auxílio do automapper e a conexão com o banco de dados feita com auxílio das migrations do Entity Framework.",
+            "adress": ""
+          },
+          {
+            "id": "37",
+            "postId": "2",
+            "postType": 3,
+            "subtitle": "Logo Entity Framework",
+            "description": "Logo Entity Framework",
+            "adress": "06657833-facd-4406-9f08-274fbe310446-EntityFramework.png"
+          },
+          {
+            "id": "38",
+            "postId": "2",
+            "postType": 1,
+            "subtitle": "",
+            "description": "O frontend foi feito com o framework Angular com alguns componentes do Bootstrap. Postado assim como as APIs no Azure como Webapp.",
+            "adress": ""
+          },
+          {
+            "id": "39",
+            "postId": "2",
+            "postType": 3,
+            "subtitle": "Logo Angular",
+            "description": "Logo Angular",
+            "adress": "715a4cb1-fc34-4c32-a67d-8448455fc9c5-LogoAngular.png"
+          },
+          {
+            "id": "40",
+            "postId": "2",
+            "postType": 3,
+            "subtitle": "Logo ng-bootstrap",
+            "description": "Logo ng-bootstrap",
+            "adress": "a114da10-d5a7-49b3-8cfd-62c733dd5506-Bootstrap.jpeg"
+          },
+          {
+            "id": "41",
+            "postId": "2",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Ainda pretendo adicionar mais recursos a esta página como autenticação com JWT e o duende, e após isso criar uma tela para cadastro de posts, e um APIGateway com Ocelot também.",
+            "adress": ""
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "postTitle": "GeekShopping",
+        "postImage": "775b6daf-4ed3-4ce8-98d0-424726de21b8-GeekShoppingCapa.jpg",
+        "postDescription": "",
+        "isAProject": true,
+        "postActive": true,
+        "postDate": "2023-01-18T16:53:29.589Z",
+        "PostItens": [
+          {
+            "id": "42",
+            "postId": "3",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Projeto de uma loja com cadastro de produtos, login com autenticação, carrinho de compras e cupom de desconto.",
+            "adress": ""
+          },
+          {
+            "id": "43",
+            "postId": "3",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Este projeto foi feito conforme o curso da Udemy, “Arquitetura de Microsserviços do 0 com ASP.NET, .NET 6 e C# com Leandro da Costa Gonçalves”",
+            "adress": ""
+          },
+          {
+            "id": "44",
+            "postId": "3",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Nele foram abordados conceitos de arquitetura de microsserviços que consiste em várias APIs cada uma com uma função para o sistema da nossa loja atendendo os princípios SOLID com Dotnet.",
+            "adress": ""
+          },
+          {
+            "id": "46",
+            "postId": "3",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Foi usado o padrão de projeto VO com auxílio do AutoMapper.",
+            "adress": ""
+          },
+          {
+            "id": "47",
+            "postId": "3",
+            "postType": 3,
+            "subtitle": "Logo do automapper",
+            "description": "Logo do automapper",
+            "adress": "88be37c6-444b-4208-b320-f7b10b51387d-Logo automapper.png"
+          },
+          {
+            "id": "48",
+            "postId": "3",
+            "postType": 1,
+            "subtitle": "",
+            "description": "No curso, o banco de dados utilizado foi o MySQL, mas utilizei o SQL-Server.",
+            "adress": ""
+          },
+          {
+            "id": "49",
+            "postId": "3",
+            "postType": 0,
+            "subtitle": "string",
+            "description": "string",
+            "adress": "string"
+          },
+          {
+            "id": "50",
+            "postId": "3",
+            "postType": 3,
+            "subtitle": "Logo do SQL server",
+            "description": "Logo do SQL server",
+            "adress": "49c523cc-343c-426d-9578-c99c175837fc-SQL-Server-Logo.png"
+          },
+          {
+            "id": "51",
+            "postId": "3",
+            "postType": 1,
+            "subtitle": "",
+            "description": "A conexão com o banco de dados em cada API foi feita com auxílio do Entity Framework.",
+            "adress": ""
+          },
+          {
+            "id": "52",
+            "postId": "3",
+            "postType": 3,
+            "subtitle": "Logo entity framework",
+            "description": "Logo entity framework",
+            "adress": "06657833-facd-4406-9f08-274fbe310446-EntityFramework.png"
+          },
+          {
+            "id": "53",
+            "postId": "3",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Para abrir a página inicial e ver os cartões dos produtos, não é preciso fazer login, mas para cadastrar, alterar ou deletar um produto é preciso estar logado com a API do Identity Server feita com o Duende e JWT com status de “admin”.",
+            "adress": ""
+          },
+          {
+            "id": "54",
+            "postId": "3",
+            "postType": 3,
+            "subtitle": "Tela de login",
+            "description": "Tela de login",
+            "adress": "6339fd25-cb1d-413f-b44c-655ffcbbf436-Login.jpg"
+          },
+          {
+            "id": "55",
+            "postId": "3",
+            "postType": 3,
+            "subtitle": "Tela inicial com perfil logado",
+            "description": "Tela inicial com perfil logado",
+            "adress": "7b82efa6-3f7f-40b9-bb51-b222990eb7a5-Perfil logado.jpg"
+          },
+          {
+            "id": "56",
+            "postId": "3",
+            "postType": 3,
+            "subtitle": "Tela com botão para cadastrar novo produto e produtos cadastrados com opção de alterar e deletar.",
+            "description": "Tela com botão para cadastrar novo produto e produtos cadastrados com opção de alterar e deletar.",
+            "adress": "a1a63d86-7cf8-4ee7-ba35-39f008a42653-Criar editar e deletar.jpg"
+          },
+          {
+            "id": "57",
+            "postId": "3",
+            "postType": 3,
+            "subtitle": "Tela para cadastro de novo produto.",
+            "description": "Tela para cadastro de novo produto.",
+            "adress": "8014a38d-b65b-47b5-9b4e-cbbbcc2f3cba-Novo produto.jpg"
+          },
+          {
+            "id": "58",
+            "postId": "3",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Para as outras operações como adicionar ao carrinho ou finalizar a compra também é preciso estar logado, mas não precisa de uma conta do perfil “admin”.",
+            "adress": ""
+          },
+          {
+            "id": "59",
+            "postId": "3",
+            "postType": 3,
+            "subtitle": "Carrinho de compras do cliente com os produtos selecionados.",
+            "description": "Carrinho de compras do cliente com os produtos selecionados.",
+            "adress": "b22f5b37-9708-4c4c-8cf1-35799a6c9d1a-Carrinho de compras.jpg"
+          },
+          {
+            "id": "60",
+            "postId": "3",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Após concluir o pedido, uma API simula e confirma o pagamento, os pedidos passam por uma fila assíncrona no rabbitMq garantindo que apenas um pedido seja processado por vez evitando problemas de requisição simultâneas.",
+            "adress": ""
+          },
+          {
+            "id": "61",
+            "postId": "3",
+            "postType": 3,
+            "subtitle": "Logo rabbitMq.",
+            "description": "Logo rabbitMq.",
+            "adress": "92d96c5a-f285-4780-a917-04b9dfde8d58-RabbitMQ_logo.png"
+          },
+          {
+            "id": "62",
+            "postId": "3",
+            "postType": 1,
+            "subtitle": "",
+            "description": "O frontend foi feito com um projeto MVC com as conexões feitas pelo endereço das APIs.",
+            "adress": ""
+          },
+          {
+            "id": "63",
+            "postId": "3",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Para centralizar o acessso as APIs, foi criado uma APIGateway com Ocelot.",
+            "adress": ""
+          },
+          {
+            "id": "64",
+            "postId": "3",
+            "postType": 3,
+            "subtitle": "Logo Ocelot.",
+            "description": "Logo Ocelot.",
+            "adress": "890927b8-774a-440e-8d3a-0fb8789dd1fa-Ocelot.png"
+          },
+          {
+            "id": "65",
+            "postId": "3",
+            "postType": 2,
+            "subtitle": "",
+            "description": "Link para o github deste projeto",
+            "adress": "https://github.com/timzejr2/geekshop"
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "postTitle": "API Gateway",
+        "postImage": "e0bfc91f-7418-493b-8d33-b80aae215f95-Capa.jpg",
+        "postDescription": "",
+        "isAProject": true,
+        "postActive": true,
+        "postDate": "2023-01-30T18:28:42.609Z",
+        "PostItens": [
+          {
+            "id": "66",
+            "postId": "4",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Semana passada (27/01/2023), criei um post no blog sobre APIs gateway.",
+            "adress": ""
+          },
+          {
+            "id": "67",
+            "postId": "4",
+            "postType": 2,
+            "subtitle": "",
+            "description": "Veja o post no blog",
+            "adress": "https://valentimaffonso.azurewebsites.net/blog"
+          },
+          {
+            "id": "68",
+            "postId": "4",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Agora, colocando a mão na massa, criei uma API Gateway simples com Ocelot para os posts desta página.",
+            "adress": ""
+          },
+          {
+            "id": "69",
+            "postId": "4",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Para começar, precisamos criar um novo projeto API Web do ASP.NET Core.",
+            "adress": ""
+          },
+          {
+            "id": "70",
+            "postId": "4",
+            "postType": 3,
+            "subtitle": "Selecionar API Web do ASP.NET Core",
+            "description": "Selecionar API Web do ASP.NET Core",
+            "adress": "5517c004-b1c5-46b6-a60d-690b017e4b87-Novo Projeto de API.jpg"
+          },
+          {
+            "id": "71",
+            "postId": "4",
+            "postType": 3,
+            "subtitle": "Colocar um nome para API",
+            "description": "Dar um nome para a API e escolher o diretório em que ela ficará armazenada",
+            "adress": "2c8581c8-21a5-4af7-b6d7-382aacaea918-Nome do projeto.jpg"
+          },
+          {
+            "id": "72",
+            "postId": "4",
+            "postType": 3,
+            "subtitle": "Selecionar versão do dotnet",
+            "description": "Selecionar versão do dotnet",
+            "adress": "43cdfcf3-f3d9-49ce-a0ec-66ec8f3b212c-Versao dotnet.jpg"
+          },
+          {
+            "id": "73",
+            "postId": "4",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Com o projeto criado, instalar o Ocelot no nuget packages.",
+            "adress": ""
+          },
+          {
+            "id": "74",
+            "postId": "4",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Clicar com o botão direito sobre o projeto e selecionar a opção “Gerenciar pacotes do nuget”",
+            "adress": ""
+          },
+          {
+            "id": "75",
+            "postId": "4",
+            "postType": 3,
+            "subtitle": "Selecionar Gerenciar pacotes do nuget",
+            "description": "Selecionar Gerenciar pacotes do nuget",
+            "adress": "53bef151-f12d-4eee-82c0-f450a6b7637c-Abrir nuget packages.jpg"
+          },
+          {
+            "id": "76",
+            "postId": "4",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Na parte superior do nuget, selecionar a opção “procurar”, pesquisar por “ocelot”, selecionar o Ocelot e clicar em instalar.",
+            "adress": ""
+          },
+          {
+            "id": "77",
+            "postId": "4",
+            "postType": 3,
+            "subtitle": "Instalar Ocelot",
+            "description": "Instalar Ocelot",
+            "adress": "2224f834-9b66-4bd2-8736-fd03ad775a96-Instalar Ocelot.jpg"
+          },
+          {
+            "id": "78",
+            "postId": "4",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Configurar as portas no lounchSettings.json",
+            "adress": ""
+          },
+          {
+            "id": "79",
+            "postId": "4",
+            "postType": 3,
+            "subtitle": "Configurar as portas do lounchSettings.json",
+            "description": "Configurar as portas do lounchSettings.json",
+            "adress": "f0f39b87-ad00-4ac6-9cbd-02dd4e1c9406-configurar lounchSettings.jpg"
+          },
+          {
+            "id": "80",
+            "postId": "4",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Clicar com o botão direito sobre o projeto na árvore e selecionar “Adicionar ===> novo item”",
+            "adress": ""
+          },
+          {
+            "id": "81",
+            "postId": "4",
+            "postType": 3,
+            "subtitle": "Adicionar novo item",
+            "description": "Adicionar novo item",
+            "adress": "4959f3d9-43b7-4921-8695-d057a068ea55-Adicionar novo arquivo json.jpg"
+          },
+          {
+            "id": "82",
+            "postId": "4",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Selecionar “arquivo JSON” e nomeá-lo como ocelot.json.",
+            "adress": ""
+          },
+          {
+            "id": "83",
+            "postId": "4",
+            "postType": 3,
+            "subtitle": "Criar arquivo ocelot.json para adicionar as configurações da API",
+            "description": "Criar arquivo ocelot.json para adicionar as configurações da API",
+            "adress": "24a5cd78-bbcc-4516-a20c-b82f8f959917-Selecionar e nomear arquivo json.jpg"
+          },
+          {
+            "id": "84",
+            "postId": "4",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Para consumir uma API rodando no local host, a imagem abaixo detalha a configuração básica para um método Http GET, se o método ser outro basta trocar pelo respectivo método (POST, DELETE, …).",
+            "adress": ""
+          },
+          {
+            "id": "85",
+            "postId": "4",
+            "postType": 3,
+            "subtitle": "Configuração básica do Ocelot",
+            "description": "Configuração básica do Ocelot",
+            "adress": "7abb6cac-85c1-43d1-a196-a3da0db6201f-Configuração dos metodos.jpg"
+          },
+          {
+            "id": "86",
+            "postId": "4",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Para consumir uma API Gateway que está rodando no Azure, basta colocar o endereço da API no “Host”, o numero 443 em “Port”, pois esta é a porta padrão para webapps do Azure.",
+            "adress": ""
+          },
+          {
+            "id": "87",
+            "postId": "4",
+            "postType": 1,
+            "subtitle": "",
+            "description": "E para adicionar mais endpoints inclusive de outras APIs, é preciso colocar uma vírgula no final do bloco de configuração e repetir o processo com as devidas alterações.",
+            "adress": ""
+          },
+          {
+            "id": "88",
+            "postId": "4",
+            "postType": 3,
+            "subtitle": "Configuração para buscar APIs no Azure",
+            "description": "Configuração para buscar APIs no Azure",
+            "adress": "266ddcda-bf73-4593-b419-55be31fe712f-Configuração para API postada.jpg"
+          },
+          {
+            "id": "89",
+            "postId": "4",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Também é possível adicionar várias outras configurações, como limitar o número de requisições a API em um determinado intervalo de tempo, evitando sobrecarga.",
+            "adress": ""
+          },
+          {
+            "id": "90",
+            "postId": "4",
+            "postType": 3,
+            "subtitle": "Configuração de limite de acesso.",
+            "description": "Configuração de limite de acesso.",
+            "adress": "fbf86730-e4db-4576-9c0b-3ea2d4d3e4d9-Configuração de limite de acesso.jpg"
+          },
+          {
+            "id": "91",
+            "postId": "4",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Existem várias opções de configuração, com limitações e autenticação que podem ser vistos na documentação do Ocelot.",
+            "adress": ""
+          },
+          {
+            "id": "92",
+            "postId": "4",
+            "postType": 2,
+            "subtitle": "",
+            "description": "Veja aqui a documentação do ocelot",
+            "adress": "https://ocelot.readthedocs.io/en/latest/features/configuration.html"
+          },
+          {
+            "id": "93",
+            "postId": "4",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Para finalizar é preciso adicionar as configurações do Ocelot em Program.cs.",
+            "adress": ""
+          },
+          {
+            "id": "94",
+            "postId": "4",
+            "postType": 3,
+            "subtitle": "Adicionar configurações em Program.cs",
+            "description": "Adicionar configurações em Program.cs",
+            "adress": "439ba055-8ef7-4f4d-97d4-e29496fb2b9c-Configurações Ocelot em Program.jpg"
+          },
+          {
+            "id": "95",
+            "postId": "4",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Esta API Gateway está atualmente em funcionamento junto a esta página.",
+            "adress": ""
+          },
+          {
+            "id": "96",
+            "postId": "4",
+            "postType": 2,
+            "subtitle": "",
+            "description": "Veja este projeto no github",
+            "adress": "https://github.com/timzejr2/APIsPaginaPessoal.git"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "postTitle": "Componente para webGL",
+        "postImage": "bede57af-1b94-4e84-8ae2-037a11573cff-Capa.jpg",
+        "postDescription": "",
+        "isAProject": true,
+        "postActive": true,
+        "postDate": "2023-02-02T21:08:29.061Z",
+        "PostItens": [
+          {
+            "id": "97",
+            "postId": "5",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Os componentes dos posts desta página são armazenados item a item em banco de dados SQL, e até hoje eram eles:",
+            "adress": ""
+          },
+          {
+            "id": "98",
+            "postId": "5",
+            "postType": 1,
+            "subtitle": "",
+            "description": " • Subtitulo – Com apenas o subtitulo",
+            "adress": ""
+          },
+          {
+            "id": "99",
+            "postId": "5",
+            "postType": 1,
+            "subtitle": "",
+            "description": " • Descrição – Apenas com a descrição",
+            "adress": ""
+          },
+          {
+            "id": "100",
+            "postId": "5",
+            "postType": 1,
+            "subtitle": "",
+            "description": " • Link – Com a descrição e o endereço do link",
+            "adress": ""
+          },
+          {
+            "id": "101",
+            "postId": "5",
+            "postType": 1,
+            "subtitle": "",
+            "description": " • Imagem – com endereço, descrição e subtítulo para aparecer caso a imagem não carregue.",
+            "adress": ""
+          },
+          {
+            "id": "102",
+            "postId": "5",
+            "postType": 1,
+            "subtitle": "",
+            "description": " • Vídeo – apenas com o link",
+            "adress": ""
+          },
+          {
+            "id": "103",
+            "postId": "5",
+            "postType": 1,
+            "subtitle": "",
+            "description": "",
+            "adress": ""
+          },
+          {
+            "id": "104",
+            "postId": "5",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Adicionei mais um componente, o webGL, que permite adicionar ao post um jogo ou maquete feito com a Unity no formato webGL, rodando direto no navegador.",
+            "adress": ""
+          },
+          {
+            "id": "105",
+            "postId": "5",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Para o frontend, o desafio foi fazer os arquivos gerados pela Unity que são configurados em javascript rodar no Angular que funciona com Typescript gerando incompatibilidade.",
+            "adress": ""
+          },
+          {
+            "id": "106",
+            "postId": "5",
+            "postType": 1,
+            "subtitle": "",
+            "description": "A solução foi criar uma página estática que roda a maquete/jogo em javascript recebendo a referência de qual jogo rodar pela URL e no Angular usar a tag HTML <iframe> para montar a página auxiliar neste componente.",
+            "adress": ""
+          },
+          {
+            "id": "107",
+            "postId": "5",
+            "postType": 3,
+            "subtitle": "Pagina auxiliar recebendo a referência da maquete pela URL",
+            "description": "Pagina auxiliar recebendo a referência da maquete pela URL",
+            "adress": "d6f88938-0161-4371-9979-d876d046fa2d-PaginaAuxiliar.jpg"
+          },
+          {
+            "id": "108",
+            "postId": "5",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Por padrão o angular bloqueia quando algo de outra página é passado por uma variável, sendo preciso realizar a configuração do “sanitizer”.",
+            "adress": ""
+          },
+          {
+            "id": "109",
+            "postId": "5",
+            "postType": 3,
+            "subtitle": "Configurações da variável “sanitizer”",
+            "description": "Configurações da variável “sanitizer”",
+            "adress": "6fe7a419-f1d9-477c-984d-d5c2f9b0e3a7-Sanitizer.jpg"
+          },
+          {
+            "id": "110",
+            "postId": "5",
+            "postType": 0,
+            "subtitle": "Funcionamento",
+            "description": "",
+            "adress": ""
+          },
+          {
+            "id": "111",
+            "postId": "5",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Após carregar o jogo ou maquete, ao clicar sobre ele, o cursor do mouse irá sumir, mas basta apertar “esc” que ele aparece novamente.",
+            "adress": ""
+          },
+          {
+            "id": "112",
+            "postId": "5",
+            "postType": 1,
+            "subtitle": "",
+            "description": "O mesmo vale caso você expanda o jogo para a tela toda.",
+            "adress": ""
+          },
+          {
+            "id": "113",
+            "postId": "5",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Este componente ainda não tem suporte para mobile, ele pode até carregar no seu celular, mas não tem comandos configurados para ele, além de poder surgir alguns bugs.",
+            "adress": ""
+          },
+          {
+            "id": "114",
+            "postId": "5",
+            "postType": 2,
+            "subtitle": "",
+            "description": "Veja o projeto “Modelo de Maquete” (ele é mais pesado para carregar)",
+            "adress": "https://valentimaffonso.azurewebsites.net/projects"
+          },
+          {
+            "id": "115",
+            "postId": "5",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Ou veja um exemplo simples abaixo:",
+            "adress": ""
+          },
+          {
+            "id": "116",
+            "postId": "5",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Obs.: Google Chrome e navegadores derivados podem não carregar a maquete, recomendo o uso do Microsoft Edge, Mozilla ou Safari",
+            "adress": ""
+          },
+          {
+            "id": "117",
+            "postId": "5",
+            "postType": 5,
+            "subtitle": "",
+            "description": "",
+            "adress": "4034de0f-5200-4814-9756-429f3cfbcc71"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "postTitle": "Modelo de Maquete",
+        "postImage": "13df8ba1-5279-40ff-95f3-e8c846e539cc-Capa-maquete.jpg",
+        "postDescription": "",
+        "isAProject": true,
+        "postActive": true,
+        "postDate": "2023-02-02T21:41:59.838Z",
+        "PostItens": [
+          {
+            "id": "118",
+            "postId": "6",
+            "postType": 5,
+            "subtitle": "",
+            "description": "",
+            "adress": "3714d89c-907e-4e4a-a130-2a3a16ad4f39"
+          },
+          {
+            "id": "119",
+            "postId": "6",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Aperte “esc” para liberar o cursor ou sair do modo tela cheia.",
+            "adress": ""
+          },
+          {
+            "id": "120",
+            "postId": "6",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Esta maquete tem 600mb e pode demorar para carregar…",
+            "adress": ""
+          },
+          {
+            "id": "121",
+            "postId": "6",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Obs.: Google Chrome e navegadores derivados podem não carregar a maquete, recomendo o uso do Microsoft Edge, Mozilla ou Safari",
+            "adress": ""
+          },
+          {
+            "id": "122",
+            "postId": "6",
+            "postType": 0,
+            "subtitle": "Recursos usados",
+            "description": "",
+            "adress": ""
+          },
+          {
+            "id": "123",
+            "postId": "6",
+            "postType": 1,
+            "subtitle": "",
+            "description": " • Autocad - Para Planta e dimensões.",
+            "adress": ""
+          },
+          {
+            "id": "124",
+            "postId": "6",
+            "postType": 1,
+            "subtitle": "",
+            "description": " • Blender - Para modelos 3d e mapeamento de texturas da casa.",
+            "adress": ""
+          },
+          {
+            "id": "125",
+            "postId": "6",
+            "postType": 1,
+            "subtitle": "",
+            "description": " • Forest Environment - Modelos de árvores e vegetação.",
+            "adress": ""
+          },
+          {
+            "id": "126",
+            "postId": "6",
+            "postType": 1,
+            "subtitle": "",
+            "description": " • HQ Residential House – Modelos de móveis",
+            "adress": ""
+          },
+          {
+            "id": "127",
+            "postId": "6",
+            "postType": 1,
+            "subtitle": "",
+            "description": " • Unity – Montagem da cena",
+            "adress": ""
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "postTitle": "Protótipo game",
+        "postImage": "1122a1c3-3aa2-44ad-bad4-c7acb4ed3b1c-PrototipoGame.jpg",
+        "postDescription": "",
+        "isAProject": true,
+        "postActive": true,
+        "postDate": "2024-02-04T21:41:59.838Z",
+        "PostItens": [
+          {
+            "id": "128",
+            "postId": "7",
+            "postType": 4,
+            "subtitle": "",
+            "description": "",
+            "adress": "https://www.youtube.com/embed/hTscYk7zs8g?si=j17j_-0miOUs8MwS"
+          },
+          {
+            "id": "129",
+            "postId": "7",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Cena de game feita com a Unity e comportamentos programados em C#.",
+            "adress": ""
+          },
+          {
+            "id": "130",
+            "postId": "7",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Modelos e animações do personagem com Adobe Fuse e Mixamo.",
+            "adress": ""
+          },
+          {
+            "id": "131",
+            "postId": "7",
+            "postType": 1,
+            "subtitle": "",
+            "description": "Assets usados:",
+            "adress": ""
+          },
+          {
+            "id": "132",
+            "postId": "7",
+            "postType": 1,
+            "subtitle": "",
+            "description": "• Cinemachine - Movimentação da câmera.",
+            "adress": ""
+          },
+          {
+            "id": "133",
+            "postId": "7",
+            "postType": 1,
+            "subtitle": "",
+            "description": "• Gaia - Modelar terreno, céu e iluminação",
+            "adress": ""
+          },
+          {
+            "id": "134",
+            "postId": "7",
+            "postType": 1,
+            "subtitle": "",
+            "description": "• Vegetation engine - Reação da vegetação",
+            "adress": ""
+          },
+          {
+            "id": "135",
+            "postId": "7",
+            "postType": 1,
+            "subtitle": "",
+            "description": "• Vegetation Studio - Renderizar vegetação",
+            "adress": ""
+          },
+          {
+            "id": "136",
+            "postId": "7",
+            "postType": 1,
+            "subtitle": "",
+            "description": "• Crest Ocean System - Oceano e rios com reação.",
+            "adress": ""
+          },
+          {
+            "id": "137",
+            "postId": "7",
+            "postType": 1,
+            "subtitle": "",
+            "description": "• Animal pack deluxe - modelos dos animais e suas animações",
+            "adress": ""
+          },
+          {
+            "id": "138",
+            "postId": "7",
+            "postType": 1,
+            "subtitle": "",
+            "description": "• Forest Environment - Modelos de árvores e vegetação",
+            "adress": ""
+          },
+          {
+            "id": "139",
+            "postId": "7",
+            "postType": 1,
+            "subtitle": "",
+            "description": "• Rocky Hills Environments - Modelos de pedras",
+            "adress": ""
+          },
+          {
+            "id": "140",
+            "postId": "7",
+            "postType": 1,
+            "subtitle": "",
+            "description": "• Special Dagger Pack – Facão",
+            "adress": ""
+          }
+        ]
+      }
+  ]
