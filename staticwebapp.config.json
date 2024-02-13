@@ -1,0 +1,18 @@
+{
+    "navigationFallback": {
+      "rewrite": "/index.html",
+      "exclude": ["*.{css,scss,js,png,gif,ico,jpg,svg}"]
+    },
+    "routes": [
+        {
+            "route": "/blog",
+            "redirect": "/blog",
+            "statusCode": 301
+        },
+        {
+            "route": "/projects",
+            "redirect": "/projects",
+            "statusCode": 301
+        }
+    ]
+  }
