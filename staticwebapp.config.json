@@ -15,13 +15,43 @@
             "statusCode": 301
         },
         {
-            "route": "/blog/post/*",
-            "redirect": "/blog/post/*",
+            "route": "/blog/post/0",
+            "redirect": "/blog/post/0",
             "statusCode": 301
         },
         {
-            "route": "/projects/post/*",
-            "redirect": "/projects/post/*",
+            "route": "/blog/post/1",
+            "redirect": "/blog/post/1",
+            "statusCode": 301
+        },
+        {
+            "route": "/projects/post/2",
+            "redirect": "/projects/post/2",
+            "statusCode": 301
+        },
+        {
+            "route": "/projects/post/3",
+            "redirect": "/projects/post/3",
+            "statusCode": 301
+        },
+        {
+            "route": "/projects/post/4",
+            "redirect": "/projects/post/4",
+            "statusCode": 301
+        },
+        {
+            "route": "/projects/post/5",
+            "redirect": "/projects/post/5",
+            "statusCode": 301
+        },
+        {
+            "route": "/projects/post/6",
+            "redirect": "/projects/post/6",
+            "statusCode": 301
+        },
+        {
+            "route": "/projects/post/7",
+            "redirect": "/projects/post/7",
             "statusCode": 301
         }
     ]
