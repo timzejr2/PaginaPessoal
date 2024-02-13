@@ -61,7 +61,8 @@ export class PostService {
     const jsonUrl = 'https://postsimages.blob.core.windows.net/posts/posts.json';
     return this.http.get<Post[]>(jsonUrl)
     .pipe(
-      map(posts => posts.filter(post => !post.isAProject))
+      map(posts => posts.filter(post => !post.isAProject)),
+      map(filteredPosts => filteredPosts.reverse())
     );
   }
   
