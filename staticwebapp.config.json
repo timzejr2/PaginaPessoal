@@ -13,6 +13,16 @@
             "route": "/projects",
             "redirect": "/projects",
             "statusCode": 301
+        },
+        {
+            "route": "/blog/post/*",
+            "redirect": "/blog/post/*",
+            "statusCode": 301
+        },
+        {
+            "route": "/projects/post/*",
+            "redirect": "/projects/post/*",
+            "statusCode": 301
         }
     ]
   }
