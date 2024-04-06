@@ -275,7 +275,7 @@
             "postId": "2",
             "postType": 1,
             "subtitle": "",
-            "description": "Este projeto é exatamente esta página que você está neste momento.",
+            "description": "Atualmente, esta página é um compilado feito em Angular consumindo um arquivo json que contém os posts. Mas a versão original foi feita com os recursos abaixo:",
             "adress": ""
           },
           {
