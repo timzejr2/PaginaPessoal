@@ -23,6 +23,10 @@ app-carousel{
     app-carousel {
         opacity: 0;
     }
+
+    .pontaBalao{
+        display: none;
+    }
 }
 
 .pontaBalao{

@@ -8,4 +8,6 @@
 .links {
     display:inline-flex;
     text-decoration: none;
+    align-items: center;
+    width: 80px;
 }

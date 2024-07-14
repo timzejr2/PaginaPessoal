@@ -1206,5 +1206,1122 @@
             "adress": ""
           }
         ]
-      }
+      },
+      {
+        "id": "8",
+        "postTitle": "Minimal API com Dapper",
+        "postImage": "https://postsimages.blob.core.windows.net/images/Logo-dapper.jpg",
+        "postDescription": "",
+        "isAProject": false,
+        "postActive": true,
+        "postDate": "2024-02-24T21:17:59.838Z",
+        "PostItens": [
+            {
+                "id": "141",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Quando montei esta página, usei o entity framework que criou a estrutura para comunicação com o banco de dados, permitindo o uso das funções LINQ.",
+                "adress": ""
+            },
+            {
+                "id": "142",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Por um lado isso adianta bastante o trabalho, pois rodando um comando, temos disponivel todas as operações possiveis, mas por outro lado, muitas destas operações do Entity Framework acabam não sendo necessárias na prática para muitos projetos, deixando estas aplicações pesadas e não contribuindo para este tipo de otimização.",
+                "adress": ""
+            },
+            {
+                "id": "143",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "A biblioteca Dapper no lugar do Entity Framework, pode ser uma excelente solução para esta otimização, pois ela permite fazer de forma manual apenas as operações no banco de dados que serão necessárias para o projeto.",
+                "adress": ""
+            },
+            {
+                "id": "144",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Neste exemplo, também usei minimal api. Com ela é possível criar os endpoints direto em Program.cs sem usar controllers, simplificando assim o código e ganhando um bom tempo.",
+                "adress": ""
+            },
+            {
+                "id": "145",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "As minimal APIs são uma excelente solução para muitos casos, mas ainda existem muitos cenários que uma API com controllers pode ser uma solução mais indicada conforme a necessidade de determinadas validações, ou mesmo trabalhar em algum projeto legado.",
+                "adress": ""
+            },
+            {
+                "id": "146",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Neste projeto, foi usado o mysql Workbench.",
+                "adress": ""
+            },
+            {
+                "id": "147",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Diferente do Entity Framework, com o Dapper, precisamos criar a tabela do banco de dados antes de conectar ao projeto. Por isso será feito isso agora no inicio.",
+                "adress": ""
+            },
+            {
+                "id": "148",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Primeiro, é preciso habilitar o MySql e para isso é preciso abrir “Ferramentas Administrativas do Windows”:",
+                "adress": ""
+            },
+            {
+                "id": "149",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "",
+                "adress": "https://postsimages.blob.core.windows.net/images/1-menu-iniciar.jpg"
+            },
+            {
+                "id": "150",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Selecionar 'Serviços'",
+                "adress": ""
+            },
+            {
+                "id": "151",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "",
+                "adress": "https://postsimages.blob.core.windows.net/images/2-selecionar-servicos.jpg"
+            },
+            {
+                "id": "150",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Selecionar 'MySQL80' e dar o play.",
+                "adress": ""
+            },
+            {
+                "id": "151",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "",
+                "adress": "https://postsimages.blob.core.windows.net/images/3-iniciar-servicos.jpg"
+            },
+            {
+                "id": "152",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Com o MySQL80 executando, agora podemos abrir o MySql Workbench.",
+                "adress": ""
+            },
+            {
+                "id": "153",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "",
+                "adress": "https://postsimages.blob.core.windows.net/images/4-mysql-workbench.jpg"
+            },
+            {
+                "id": "154",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Clicar no ícone “+” para criar um novo banco de dados.",
+                "adress": ""
+            },
+            {
+                "id": "155",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "",
+                "adress": "https://postsimages.blob.core.windows.net/images/5-criar-novo-banco-de-dados.jpg"
+            },
+            {
+                "id": "156",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "CREATE DATABASE minhaloja",
+                "adress": ""
+            },
+            {
+                "id": "157",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Criar o database com:",
+                "adress": ""
+            },
+            {
+                "id": "158",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "",
+                "adress": "https://postsimages.blob.core.windows.net/images/6-criar-database.jpg"
+            },
+            {
+                "id": "159",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Rodar no banco o comando:",
+                "adress": ""
+            },
+            {
+                "id": "160",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "USE minhaloja",
+                "adress": ""
+            },
+            {
+                "id": "161",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Rodar no banco o comando: USE minhaloja",
+                "adress": ""
+            },
+            {
+                "id": "162",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Em seguida criar a tabela com:",
+                "adress": ""
+            },
+            {
+                "id": "163",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "CREATE TABLE produtos (",
+                "adress": ""
+            },
+            {
+                "id": "164",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "id INT AUTO_INCREMENT PRIMARY KEY,",
+                "adress": ""
+            },
+            {
+                "id": "165",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "nome VARCHAR(255) NOT NULL,",
+                "adress": ""
+            },
+            {
+                "id": "166",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "descricao TEXT,",
+                "adress": ""
+            },
+            {
+                "id": "167",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "preco DECIMAL(10, 2) NOT NULL,",
+                "adress": ""
+            },
+            {
+                "id": "168",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "estoque INT NOT NULL",
+                "adress": ""
+            },
+            {
+                "id": "169",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": ");",
+                "adress": ""
+            },
+            {
+                "id": "170",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "",
+                "adress": "https://postsimages.blob.core.windows.net/images/7-criar-tabela.jpg"
+            },
+            {
+                "id": "171",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Com a tabela do banco de dados criada, podemos criar o projeto da Minimal API no Visual Studio",
+                "adress": ""
+            },
+            {
+                "id": "172",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "",
+                "adress": "https://postsimages.blob.core.windows.net/images/8-novo-projeto.jpg"
+            },
+            {
+                "id": "173",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Selecionar ASP.NET core web API",
+                "adress": ""
+            },
+            {
+                "id": "174",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "",
+                "adress": "https://postsimages.blob.core.windows.net/images/9-novo-projeto-api.jpg"
+            },
+            {
+                "id": "175",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Dar um nome para o projeto",
+                "adress": ""
+            },
+            {
+                "id": "176",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "",
+                "adress": "https://postsimages.blob.core.windows.net/images/10-novo-projeto-nome.jpg"
+            },
+            {
+                "id": "177",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Escolher as configurações do projeto conforme imagem abaixo mas salientando para não selecionar a opção “Controllers”, pois estamos fazendo uma Minimal API.",
+                "adress": ""
+            },
+            {
+                "id": "178",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "",
+                "adress": "https://postsimages.blob.core.windows.net/images/11-novo-projeto-configuracoes.jpg"
+            },
+            {
+                "id": "179",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Com o projeto aberto, para adicionar o Dapper ao projeto, clicar com o botão direito no projeto na arvore, que aparece a direita da tela",
+                "adress": ""
+            },
+            {
+                "id": "180",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "",
+                "adress": "https://postsimages.blob.core.windows.net/images/12-projeto-arvore.jpg"
+            },
+            {
+                "id": "181",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "E selecionar “Manage Nuget Packages”",
+                "adress": ""
+            },
+            {
+                "id": "182",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "",
+                "adress": "https://postsimages.blob.core.windows.net/images/13-nuget.jpg"
+            },
+            {
+                "id": "183",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Pesquisar por Dapper e instalar ele:",
+                "adress": ""
+            },
+            {
+                "id": "184",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "",
+                "adress": "https://postsimages.blob.core.windows.net/images/14-instalar-dapper.jpg"
+            },
+            {
+                "id": "185",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Em appsettings.json, adicionar a conexão com o banco de dados :",
+                "adress": ""
+            },
+            {
+                "id": "186",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "\"MinhaLojaDb\": \"Server=localhost;Database=nome-da-database;User=nome-do-usuario-do-banco-de-dados;Password=sua-senha;\"",
+                "adress": ""
+            },
+            {
+                "id": "187",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "",
+                "adress": "https://postsimages.blob.core.windows.net/images/15-conexao-banco-de-dados.jpg"
+            },
+            {
+                "id": "188",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Dentro do projeto, criar uma pasta chamada models, e dentro dele criar a classe Produto:",
+                "adress": ""
+            },
+            {
+                "id": "189",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "public int Id { get; set; }",
+                "adress": ""
+            },
+            {
+                "id": "190",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "public string Nome { get; set; }",
+                "adress": ""
+            },
+            {
+                "id": "191",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "public string Descricao { get; set; }",
+                "adress": ""
+            },
+            {
+                "id": "192",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "public decimal Preco { get; set; }",
+                "adress": ""
+            },
+            {
+                "id": "193",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "public int Estoque { get; set; }",
+                "adress": ""
+            },
+            {
+                "id": "194",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "",
+                "adress": "https://postsimages.blob.core.windows.net/images/16-criar-classe.jpg"
+            },
+            {
+                "id": "195",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Criar a pasta repository e dentro dela a interface IprodutoRepository",
+                "adress": ""
+            },
+            {
+                "id": "196",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Task<IEnumerable<Produto>> GetAllProdutos();",
+                "adress": ""
+            },
+            {
+                "id": "197",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Task<Produto> GetProduto(int id);",
+                "adress": ""
+            },
+            {
+                "id": "198",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Task AddProduto(Produto produto);",
+                "adress": ""
+            },
+            {
+                "id": "199",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Task UpdateProduto(Produto produto);",
+                "adress": ""
+            },
+            {
+                "id": "200",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Task DeleteProduto(int id);",
+                "adress": ""
+            },
+            {
+                "id": "201",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "",
+                "adress": "https://postsimages.blob.core.windows.net/images/17-criar-interface.jpg"
+            },
+            {
+                "id": "202",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Criar ProdutoRepository dentro da pasta repository extendendo a Interface IprodutoRepository com os métodos que farão as operações no banco de dados (create, update, select e delete)",
+                "adress": ""
+            },
+            {
+                "id": "203",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "public class ProdutoRepository : IProdutoRepository",
+                "adress": ""
+            },
+            {
+                "id": "204",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "    {",
+                "adress": ""
+            },
+            {
+                "id": "205",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        private string connectionString;",
+                "adress": ""
+            },
+            {
+                "id": "206",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        public ProdutoRepository(string connectionString)",
+                "adress": ""
+            },
+            {
+                "id": "207",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        {",
+                "adress": ""
+            },
+            {
+                "id": "208",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "            this.connectionString = connectionString;",
+                "adress": ""
+            },
+            {
+                "id": "209",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        }",
+                "adress": ""
+            },
+            {
+                "id": "210",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        public async Task<IEnumerable<Produto>> GetAllProdutos()",
+                "adress": ""
+            },
+            {
+                "id": "211",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        {",
+                "adress": ""
+            },
+            {
+                "id": "212",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "            using (var connection = new MySqlConnection(connectionString))",
+                "adress": ""
+            },
+            {
+                "id": "213",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "            {",
+                "adress": ""
+            },
+            {
+                "id": "214",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "                return await connection.QueryAsync<Produto>(\"SELECT * FROM produtos\");",
+                "adress": ""
+            },
+            {
+                "id": "215",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "            }",
+                "adress": ""
+            },
+            {
+                "id": "216",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        }",
+                "adress": ""
+            },
+            {
+                "id": "217",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        public async Task<Produto> GetProduto(int id)",
+                "adress": ""
+            },
+            {
+                "id": "218",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        {",
+                "adress": ""
+            },
+            {
+                "id": "219",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "            using (var connection = new MySqlConnection(connectionString))",
+                "adress": ""
+            },
+            {
+                "id": "220",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "            {",
+                "adress": ""
+            },
+            {
+                "id": "221",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "                return await connection.QueryFirstOrDefaultAsync<Produto>(\"SELECT * FROM produtos WHERE id = @Id\", new { Id = id });",
+                "adress": ""
+            },
+            {
+                "id": "222",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "            }",
+                "adress": ""
+            },
+            {
+                "id": "223",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        }",
+                "adress": ""
+            },
+            {
+                "id": "224",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        public async Task AddProduto(Produto produto)",
+                "adress": ""
+            },
+            {
+                "id": "225",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        {",
+                "adress": ""
+            },
+            {
+                "id": "226",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "            using (var connection = new MySqlConnection(connectionString))",
+                "adress": ""
+            },
+            {
+                "id": "227",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "            {",
+                "adress": ""
+            },
+            {
+                "id": "228",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "                await connection.ExecuteAsync(\"INSERT INTO produtos(nome, descricao, preco, estoque) VALUES(@Nome, @Descricao, @Preco, @Estoque)\", produto);",
+                "adress": ""
+            },
+            {
+                "id": "229",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "            }",
+                "adress": ""
+            },
+            {
+                "id": "230",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        }",
+                "adress": ""
+            },
+            {
+                "id": "231",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        public async Task UpdateProduto(Produto produto)",
+                "adress": ""
+            },
+            {
+                "id": "232",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        {",
+                "adress": ""
+            },
+            {
+                "id": "233",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "            using (var connection = new MySqlConnection(connectionString))",
+                "adress": ""
+            },
+            {
+                "id": "234",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "            {",
+                "adress": ""
+            },
+            {
+                "id": "235",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "                await connection.ExecuteAsync(\"UPDATE produtos SET nome = @Nome, descricao = @Descricao, preco = @Preco, estoque = @Estoque WHERE id = @Id\", produto);",
+                "adress": ""
+            },
+            {
+                "id": "236",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "            }",
+                "adress": ""
+            },
+            {
+                "id": "237",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        }",
+                "adress": ""
+            },
+            {
+                "id": "238",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        public async Task DeleteProduto(int id)",
+                "adress": ""
+            },
+            {
+                "id": "239",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        {",
+                "adress": ""
+            },
+            {
+                "id": "240",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "            using (var connection = new MySqlConnection(connectionString))",
+                "adress": ""
+            },
+            {
+                "id": "241",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "            {",
+                "adress": ""
+            },
+            {
+                "id": "242",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "                await connection.ExecuteAsync(\"DELETE FROM produtos WHERE id = @Id\", new { Id = id });",
+                "adress": ""
+            },
+            {
+                "id": "243",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "            }",
+                "adress": ""
+            },
+            {
+                "id": "244",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "        }",
+                "adress": ""
+            },
+            {
+                "id": "245",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "    }",
+                "adress": ""
+            },
+            {
+                "id": "246",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "------- https://postsimages.blob.core.windows.net/images/19-criar-repository.jpg",
+                "adress": ""
+            },
+            {
+                "id": "247",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Em Program.cs adicionar a conexão com o banco de dados:",
+                "adress": ""
+            },
+            {
+                "id": "248",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "https://postsimages.blob.core.windows.net/images/18-conectar-banco-de-dados.jpg",
+                "adress": ""
+            },
+            {
+                "id": "249",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "E por fim, usando o padrão para Minimal API, criar os endpoints para as operaçãos do CRUD antes de antes app.Run();",
+                "adress": ""
+            },
+            {
+                "id": "250",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "app.MapGet(\"/produtos\", async (IProdutoRepository repo) =>",
+                "adress": ""
+            },
+            {
+                "id": "251",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "{",
+                "adress": ""
+            },
+            {
+                "id": "252",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "    return await repo.GetAllProdutos();",
+                "adress": ""
+            },
+            {
+                "id": "253",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "});",
+                "adress": ""
+            },
+            {
+                "id": "254",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "app.MapGet(\"/produtos/{id}\", async (IProdutoRepository repo, int id) =>",
+                "adress": ""
+            },
+            {
+                "id": "255",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "{",
+                "adress": ""
+            },
+            {
+                "id": "256",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "    return await repo.GetProduto(id);",
+                "adress": ""
+            },
+            {
+                "id": "257",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "});",
+                "adress": ""
+            },
+            {
+                "id": "258",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "app.MapPost(\"/produtos\", async (IProdutoRepository repo, Produto produto) =>",
+                "adress": ""
+            },
+            {
+                "id": "259",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "{",
+                "adress": ""
+            },
+            {
+                "id": "260",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "    await repo.AddProduto(produto);",
+                "adress": ""
+            },
+            {
+                "id": "261",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "    return Results.Created($\"/produtos/{produto.Id}\", produto);",
+                "adress": ""
+            },
+            {
+                "id": "262",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "});",
+                "adress": ""
+            },
+            {
+                "id": "263",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "app.MapPut(\"/produtos/{id}\", async (IProdutoRepository repo, int id, Produto produto) =>",
+                "adress": ""
+            },
+            {
+                "id": "264",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "{",
+                "adress": ""
+            },
+            {
+                "id": "265",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "    produto.Id = id;",
+                "adress": ""
+            },
+            {
+                "id": "266",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "    await repo.UpdateProduto(produto);",
+                "adress": ""
+            },
+            {
+                "id": "267",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "    return Results.NoContent();",
+                "adress": ""
+            },
+            {
+                "id": "268",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "});",
+                "adress": ""
+            },
+            {
+                "id": "269",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "app.MapDelete(\"/produtos/{id}\", async (IProdutoRepository repo, int id) =>",
+                "adress": ""
+            },
+            {
+                "id": "270",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "{",
+                "adress": ""
+            },
+            {
+                "id": "271",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "    await repo.DeleteProduto(id);",
+                "adress": ""
+            },
+            {
+                "id": "272",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "    return Results.NoContent();",
+                "adress": ""
+            },
+            {
+                "id": "273",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "});",
+                "adress": ""
+            },
+            {
+                "id": "274",
+                "postId": "8",
+                "postType": 3,
+                "subtitle": "",
+                "description": "https://postsimages.blob.core.windows.net/images/20-adicionar-endpoints.jpg",
+                "adress": ""
+            },
+            {
+                "id": "275",
+                "postId": "8",
+                "postType": 1,
+                "subtitle": "",
+                "description": "Após estes passos, podemos dar o play na aplicação e podemos testar as operações com o swagger.",
+                "adress": ""
+            },
+            {
+                "id": "276",
+                "postId": "8",
+                "postType": 2,
+                "subtitle": "",
+                "description": "Veja este projeto no github.",
+                "adress": "https://github.com/timzejr2/dapper-minimal-api"
+            }
+            
+            
+        ]
+    }
   ]
