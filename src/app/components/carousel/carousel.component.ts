@@ -9,11 +9,13 @@ import { NgIf } from '@angular/common';
 })
 export class CarouselComponent implements OnInit {
   frases: string[] = [
-    'Olá, Seja bem vindo!',
-    'Eu sou Valentim!',
-    'Desenvolvedor Dotnet e Angular.',
-    'Criei esta página para postar algumas coisas que venho estudando.',
-    'E alguns projetos pessoais.'
+    'Olá, seja bem-vindo!',
+    'Sou Valentim!',
+    'Desenvolvedor Front-end',
+    'Experiência com e-commerce',
+    'VTEX, Loja Integrada e Angular',
+    'Conhecimento em .NET e Azure',
+    'Veja meus projetos'
   ];
 
   fraseAtual: string = "";
